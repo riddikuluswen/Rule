@@ -1,17 +1,22 @@
-# Apple-Rule
+# Rule
 
-供 Loon 使用的 Apple Intelligence、Siri 和 iCloud Private Relay 分流规则。
+个人维护的 Loon 分流规则。
 
-## 订阅地址
+## AI
+
+`AI.lsr` 合并通用 AI 服务与 Apple Intelligence、Siri、Apple Relay 规则，并完成格式统一和去重。
+
+Loon 远程规则：
 
 ```text
-https://raw.githubusercontent.com/riddikuluswen/Apple-Rule/refs/heads/main/Apple-AI.list
+https://raw.githubusercontent.com/riddikuluswen/Rule/refs/heads/main/AI.lsr, policy=AI, tag=AI, enabled=true
 ```
 
-导入 Loon 后，请把该远程规则分配给位于 Apple 支持地区的代理策略，例如美国节点。
+规则文件：[`AI.lsr`](./AI.lsr)
 
-## 规则说明
+上游来源：
 
-- 已清理截图 OCR 产生的多余空格。
-- 规则文件不绑定具体策略组，导入后可自行选择策略。
-- `Apple-AI.list` 使用 Loon 可读取的标准规则行格式。
+- AI 规则历史快照：<https://raw.githubusercontent.com/axtyet/Luminous/refs/heads/main/sooyaabo/Rule/AI.lsr>
+- Apple Intelligence：[`Apple-AI.list`](./Apple-AI.list)
+
+原 AI 订阅 `https://loon.103516.xyz/Rule/AI.lsr` 已跳转到 Telegram，本仓库使用其公开镜像快照恢复规则。
