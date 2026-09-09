@@ -2,6 +2,8 @@
 
 个人维护的 Loon 分流规则。
 
+安卓 Clash Meta 使用的远程规则集合见 [ClashMeta](./ClashMeta/README.md)。该目录仅包含公共规则，私人节点配置保存在设备本地。
+
 ## AI
 
 `AI.lsr` 合并通用 AI 服务与 Apple Intelligence、Siri、Apple Relay 规则，并完成格式统一和去重。

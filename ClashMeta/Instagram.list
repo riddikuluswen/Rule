@@ -1,0 +1,11 @@
+# rule_Instagram | Mihomo classical text
+# Converted: 2026-09-09
+# Source: https://rule.kelee.one/Loon/Instagram.lsr
+# Changes: comment cleanup, stable deduplication, unsupported Loon rules omitted, GEOIP/ASN expanded where present.
+# Attribution and upstream terms: README.md and LICENSES/ in this directory.
+# Upstream: UpdateTime：2026-09-09 03:50:23
+# Upstream: RuleCount：4
+DOMAIN-SUFFIX,instagr.am
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-KEYWORD,instagram

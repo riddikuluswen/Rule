@@ -1,0 +1,111 @@
+# rule_Apple | Mihomo classical text
+# Converted: 2026-09-09
+# Source: https://raw.githubusercontent.com/axtyet/Luminous/main/sooyaabo/Rule/Apple.lsr
+# Changes: comment cleanup, stable deduplication, unsupported Loon rules omitted, GEOIP/ASN expanded where present.
+# Attribution and upstream terms: README.md and LICENSES/ in this directory.
+# Upstream: 2024-04-02 17:30
+# Upstream: https://support.apple.com/zh-cn/101555
+# Upstream: https://support.apple.com/zh-cn/102266
+# Upstream: Apple
+# Upstream: Apple 推送通知 - 当使用 Apple 推送通知服务 (APNS) 时，Apple 设备需要访问以下主机。
+# Upstream: 设备设置 - 在设置期间或者在安装、更新或恢复操作系统时，Apple 设备需要访问以下主机。
+# Upstream: 设备管理 - 已在 MDM 中注册的 Apple 设备需要访问以下主机和域。
+# Upstream: 软件更新 - 在安装、恢复和更新 iOS、iPadOS、macOS、watchOS 及 Apple tvOS 时，Apple 设备需要访问以下主机。
+# Upstream: App 和附加内容 - 在安装和更新 App、使用某些 App 功能以及下载附加内容时，Apple 设备需要访问以下主机和域。
+# Upstream: TestFlight
+# Upstream: 运营商更新 - 蜂窝网络设备需要访问以下主机，才能安装运营商软件包更新。
+# Upstream: Beta 版更新 - Apple 设备需要访问以下主机，才能注册以获取 Beta 版更新，并使用“反馈助理”App 来报告反馈。
+# Upstream: Apple账户 - Apple 设备必须能够连接到以下主机才能验证 Apple ID。所有使用 Apple ID 的服务（如 iCloud、App 安装和 Xcode）都需要满足这个条件。
+# Upstream: iCloud - 除了上面列出的 Apple ID 主机外，Apple 设备必须能够连接到以下域的主机才能使用 iCloud 服务。
+# Upstream: https://kelee.one/Tool/Loon/Rule/iCloud.list
+# Upstream: 关联域 - Apple 设备必须能够连接到以下主机，才能在 iOS 14、iPadOS 14 和 macOS Big Sur 及更高版本中使用关联域。关联域是通用链接的基础，通用链接功能允许在 App 中呈现内容，而不是在 App 的全部或部分网站中呈现内容。接力、轻 App 和单点登录扩展都使用关联域。
+DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,apple-mapkit.com
+DOMAIN-SUFFIX,apple-support.akadns.net
+DOMAIN-SUFFIX,apple.co
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,apple.com.cn
+DOMAIN-SUFFIX,apple.com.edgekey.net
+DOMAIN-KEYWORD,apple.com.akadns.net
+DOMAIN-KEYWORD,apple.com.edgekey.net
+DOMAIN-KEYWORD,apple-support.akadns.net
+DOMAIN,identity.apple.com
+DOMAIN-SUFFIX,push.apple.com
+IP-CIDR,17.249.0.0/16,no-resolve
+IP-CIDR,17.252.0.0/16,no-resolve
+IP-CIDR,17.57.144.0/22,no-resolve
+IP-CIDR,17.188.128.0/18,no-resolve
+IP-CIDR,17.188.20.0/23,no-resolve
+IP-CIDR6,2620:149:a44::/48,no-resolve
+IP-CIDR6,2403:300:a42::/48,no-resolve
+IP-CIDR6,2403:300:a51::/48,no-resolve
+IP-CIDR6,2a01:b740:a42::/48,no-resolve
+DOMAIN,albert.apple.com
+DOMAIN,captive.apple.com
+DOMAIN,gs.apple.com
+DOMAIN,humb.apple.com
+DOMAIN,static.ips.apple.com
+DOMAIN,sq-device.apple.com
+DOMAIN,tbsc.apple.com
+DOMAIN,time-ios.apple.com
+DOMAIN,time.apple.com
+DOMAIN,time-macos.apple.com
+DOMAIN,deviceenrollment.apple.com
+DOMAIN,deviceservices-external.apple.com
+DOMAIN,gdmf.apple.com
+DOMAIN,iprofiles.apple.com
+DOMAIN,mdmenrollment.apple.com
+DOMAIN,setup.icloud.com
+DOMAIN,vpp.itunes.apple.com
+DOMAIN-SUFFIX,appattest.apple.com
+DOMAIN,appldnld.apple.com
+DOMAIN,configuration.apple.com
+DOMAIN,gg.apple.com
+DOMAIN,ig.apple.com
+DOMAIN,mesu.apple.com
+DOMAIN,ns.itunes.apple.com
+DOMAIN,oscdn.apple.com
+DOMAIN,osrecovery.apple.com
+DOMAIN,skl.apple.com
+DOMAIN,swcdn.apple.com
+DOMAIN,swdist.apple.com
+DOMAIN,swdownload.apple.com
+DOMAIN,swscan.apple.com
+DOMAIN,updates-http.cdn-apple.com
+DOMAIN,updates.cdn-apple.com
+DOMAIN,xp.apple.com
+DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,apps.apple.com
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN,itunes.apple.com
+DOMAIN,ppq.apple.com
+DOMAIN,api.apple-cloudkit.com
+DOMAIN-SUFFIX,apps-marketplace.apple.com
+DOMAIN,token.safebrowsing.apple.com
+DOMAIN,beta.apple.com
+DOMAIN,testflight.apple.com
+DOMAIN-KEYWORD,testflight
+DOMAIN,appldnld.apple.com.edgesuite.net
+DOMAIN,itunes.com
+DOMAIN,bpapi.apple.com
+DOMAIN,cssubmissions.apple.com
+DOMAIN,fba.apple.com
+DOMAIN,account.apple.com
+DOMAIN,appleid.cdn-apple.com
+DOMAIN,idmsa.apple.com
+DOMAIN,gsa.apple.com
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,apple-livephotoskit.com
+DOMAIN-SUFFIX,apzones.com
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,gc.apple.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud.com.cn
+DOMAIN-SUFFIX,icloud.apple.com
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,iwork.apple.com
+DOMAIN,mask.icloud.com
+DOMAIN,mask-h2.icloud.com
+DOMAIN,mask-api.icloud.com
+DOMAIN,app-site-association.cdn-apple.com
+DOMAIN,app-site-association.networking.apple

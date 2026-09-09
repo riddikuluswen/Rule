@@ -1,0 +1,129 @@
+# rule_AI | Mihomo classical text
+# Converted: 2026-09-09
+# Source: https://raw.githubusercontent.com/riddikuluswen/Rule/refs/heads/main/AI.lsr
+# Changes: comment cleanup, stable deduplication, unsupported Loon rules omitted, GEOIP/ASN expanded where present.
+# Attribution and upstream terms: README.md and LICENSES/ in this directory.
+# Upstream: AI services and Apple Intelligence rules for Loon
+# Upstream: Updated: 2026-08-11
+# Upstream: Sources:
+# Upstream: - https://raw.githubusercontent.com/axtyet/Luminous/refs/heads/main/sooyaabo/Rule/AI.lsr
+# Upstream: - Apple-AI.list
+# Upstream: OpenAI
+# Upstream: Apple Intelligence / Siri / Relay
+# Upstream: GitHub Copilot
+# Upstream: Google Antigravity
+# Upstream: Google Gemini
+# Upstream: Anthropic Claude
+# Upstream: JetBrains AI
+# Upstream: Meta AI
+# Upstream: Perplexity AI
+# Upstream: Mistral AI
+# Upstream: Grok AI
+# Upstream: Trae AI
+# Upstream: OpenRouter
+# Upstream: TokenFlux
+# Upstream: Groq
+# Upstream: Together
+# Upstream: Fireworks
+# Upstream: Hyperbolic
+# Upstream: Jina
+# Upstream: GPUStack
+# Upstream: DOMAIN-SUFFIX,gpustack.ai
+# Upstream: VoyageAI
+# Upstream: Vertex AI
+# Upstream: Poe
+AND,((DOMAIN-KEYWORD,chatgpt-async-webps-prod-),(DOMAIN-SUFFIX,webpubsub.azure.com))
+AND,((DOMAIN-KEYWORD,openaicom-api-),(DOMAIN-SUFFIX,azurefd.net))
+DOMAIN,chatgpt.livekit.cloud
+DOMAIN,host.livekit.cloud
+DOMAIN,openai.com.cdn.cloudflare.net
+DOMAIN,openaiapi-site.azureedge.net
+DOMAIN,openaicomproductionae4b.blob.core.windows.net
+DOMAIN,production-openaicom-storage.azureedge.net
+DOMAIN-SUFFIX,chat.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,sora.com
+DOMAIN-SUFFIX,turn.livekit.cloud
+DOMAIN,mask-api.fe.apple-dns.net
+DOMAIN,mask-api.icloud.com
+DOMAIN,mask-t.apple-dns.net
+DOMAIN,mask.apple-dns.net
+DOMAIN-SUFFIX,apple-relay.akamaized.net
+DOMAIN-SUFFIX,apple-relay.apple.com
+DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
+DOMAIN-SUFFIX,apps.mzstatic.com
+DOMAIN-SUFFIX,cp4.cloudflare.com
+DOMAIN-SUFFIX,gateway.icloud.com
+DOMAIN-SUFFIX,guzzoni.apple.com
+DOMAIN-SUFFIX,ls.apple.com
+DOMAIN-SUFFIX,mask-h2.icloud.com
+DOMAIN-SUFFIX,mask.icloud.com
+DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN-KEYWORD,siri
+DOMAIN,api.githubcopilot.com
+DOMAIN,copilot-proxy.githubusercontent.com
+DOMAIN,copilot.microsoft.com
+DOMAIN,sydney.bing.com
+DOMAIN-SUFFIX,githubcopilot.com
+DOMAIN,antigravity.google
+DOMAIN,ai.google.dev
+DOMAIN,aida.googleapis.com
+DOMAIN,aistudio.google.com
+DOMAIN,aisandbox-pa.googleapis.com
+DOMAIN,alkalicore-pa.clients6.google.com
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+DOMAIN,bard.google.com
+DOMAIN,deepmind.com
+DOMAIN,deepmind.google
+DOMAIN,geller-pa.googleapis.com
+DOMAIN,gemini.google
+DOMAIN,gemini.google.com
+DOMAIN,generativeai.google
+DOMAIN,generativelanguage.googleapis.com
+DOMAIN,jules.google
+DOMAIN,jules.google.com
+DOMAIN,labs.google
+DOMAIN,makersuite.google.com
+DOMAIN,notebooklm.google
+DOMAIN,notebooklm.google.com
+DOMAIN,proactivebackend-pa.googleapis.com
+DOMAIN,robinfrontend-pa.googleapis.com
+DOMAIN,webchannel-alkalimakersuite-pa.clients6.google.com
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claudeusercontent.com
+IP-CIDR,160.79.104.0/23,no-resolve
+IP-CIDR6,2607:6bc0::/48,no-resolve
+DOMAIN-SUFFIX,grazie.ai
+DOMAIN-SUFFIX,grazie.aws.intellij.net
+DOMAIN-SUFFIX,jetbrains.ai
+DOMAIN,imagine.meta.com
+DOMAIN-SUFFIX,meta.ai
+DOMAIN,pplx-res.cloudinary.com
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,perplexity.com
+DOMAIN-SUFFIX,pplx.ai
+DOMAIN,chat.mistral.ai
+DOMAIN,console.mistral.ai
+DOMAIN-SUFFIX,mistral.ai
+DOMAIN,api.x.ai
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,x.ai
+DOMAIN,trae-api-sg.mchost.guru
+DOMAIN-SUFFIX,trae.ai
+DOMAIN-SUFFIX,openrouter.ai
+DOMAIN-SUFFIX,tokenflux.ai
+DOMAIN-SUFFIX,groq.com
+DOMAIN-SUFFIX,together.ai
+DOMAIN-SUFFIX,fireworks.ai
+DOMAIN,api.hyperbolic.xyz
+DOMAIN-SUFFIX,hyperbolic.ai
+DOMAIN-SUFFIX,jina.ai
+DOMAIN-SUFFIX,voyageai.com
+DOMAIN,aiplatform.googleapis.com
+DOMAIN-SUFFIX,poe.com

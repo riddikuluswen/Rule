@@ -1,0 +1,222 @@
+{
+  "snapshot_date": "2026-09-09",
+  "format": "text",
+  "behavior": "classical",
+  "upstream_update_mode": "manual-reviewed-snapshot",
+  "geo_database_sha256": {
+    "Country.mmdb": "0edf8a9651a7b21af9234bb176dacb727fbd32149e19cc5a2a2163317a8f10fe",
+    "ASN.mmdb": "37279508b91bb26fe6043897490fe2ba02d95a7521a8263e70e566239355b479"
+  },
+  "files": [
+    {
+      "name": "rule_AI",
+      "file": "AI.list",
+      "rules": 95,
+      "bytes": 4071,
+      "sha256": "02bbdfd8ff4715e5534082fbdeb63cffd451691772dbacab9e45e139fbacf7e6",
+      "source": "https://raw.githubusercontent.com/riddikuluswen/Rule/refs/heads/main/AI.lsr",
+      "source_sha256": "9831969244d4e1dd2a993e85aadb9e990ee092d802789d0f59f9be99a2d46873",
+      "restored_from_archive": false
+    },
+    {
+      "name": "rule_Apple_Push",
+      "file": "Apple_Push.list",
+      "rules": 13,
+      "bytes": 898,
+      "sha256": "75a699b1a015b5225a4f21ac769c4dd174d08e6fbc437265d8eecb13f7410963",
+      "source": "https://raw.githubusercontent.com/QuixoticHeart/rule-set/refs/heads/ruleset/loon/apns.list",
+      "source_sha256": "c94c5537b667b75eea429c30f5587a7577127405891a96bbd58fad1f0f3a0a97",
+      "restored_from_archive": false
+    },
+    {
+      "name": "rule_PCDN",
+      "file": "PCDN.list",
+      "rules": 33,
+      "bytes": 1559,
+      "sha256": "38800cb743d9a8fec305486d922e6323737c829a31cb4c01dbd750241087960b",
+      "source": "https://raw.githubusercontent.com/axtyet/Luminous/main/sooyaabo/Rule/PCDN.lsr",
+      "source_sha256": "d572d70699d4d0e058ac8eab32ad5e4c30ce77e0461a2f23f7bdf4768df48ab6",
+      "restored_from_archive": true
+    },
+    {
+      "name": "rule_RejectAd",
+      "file": "RejectAd.list",
+      "rules": 2650,
+      "bytes": 102067,
+      "sha256": "59a9e51280e9a963fd141e8340a66568ea7f9206d501518f7a29ccb509904bc1",
+      "source": "https://raw.githubusercontent.com/axtyet/Luminous/main/sooyaabo/Rule/RejectAd.lsr",
+      "source_sha256": "f9936b4c614591281b03aa654a40d319f998f4dac52a74eb064224d87b23300d",
+      "restored_from_archive": true
+    },
+    {
+      "name": "rule_AdRules",
+      "file": "AdRules.list",
+      "rules": 139563,
+      "bytes": 4718389,
+      "sha256": "136a1b8e7da0b0f06cc3680902b12d06ca2408dc421b374e688ffe6004086e1d",
+      "source": "https://raw.githubusercontent.com/axtyet/Luminous/main/sooyaabo/Rule/AdRules.lsr",
+      "source_sha256": "73043f7db209d66e9e67c6e795325622befb4d2831ca7039c3892eed87b166a6",
+      "restored_from_archive": true
+    },
+    {
+      "name": "rule_Media-Direct",
+      "file": "Media-Direct.list",
+      "rules": 387,
+      "bytes": 13331,
+      "sha256": "441eaa0878e677b2dc3ff0480fdbb8804b51d5dd519f0c92c3de73066d8191ef",
+      "source": "https://raw.githubusercontent.com/axtyet/Luminous/main/sooyaabo/Rule/Media-Direct.lsr",
+      "source_sha256": "e7edd9509d19c9149959bfa1df79f4fa249d2d014fb127578e6a7fdef03ff092",
+      "restored_from_archive": true
+    },
+    {
+      "name": "rule_Apple",
+      "file": "Apple.list",
+      "rules": 90,
+      "bytes": 4789,
+      "sha256": "bedfd7bde79bfff72c48bde6b85eabe8a888dc1980d8c63a4b179f2972ff9e78",
+      "source": "https://raw.githubusercontent.com/axtyet/Luminous/main/sooyaabo/Rule/Apple.lsr",
+      "source_sha256": "eb2ccb26e1efc3686b5458d6f60cca48f1d371e8ac87795d22d698fedccc2650",
+      "restored_from_archive": true
+    },
+    {
+      "name": "rule_Media-Proxy",
+      "file": "Media-Proxy.list",
+      "rules": 59,
+      "bytes": 2976,
+      "sha256": "c26ea9ab3f30c25527052aa8361d10c4672bc6e32e9cfd0eb242765790b5a6bf",
+      "source": "https://raw.githubusercontent.com/axtyet/Luminous/main/sooyaabo/Rule/Media-Proxy.lsr",
+      "source_sha256": "87652993a8f4ff0536bab46a253f4d76c26368e043644dd1aed70f3953c2e698",
+      "restored_from_archive": true
+    },
+    {
+      "name": "rule_TikTok",
+      "file": "TikTok.list",
+      "rules": 96,
+      "bytes": 3282,
+      "sha256": "60822cd8108586cc99a61ed28d0961bdcfd03ec33c3f6badba613bbe81aabdcd",
+      "source": "https://raw.githubusercontent.com/axtyet/Luminous/main/sooyaabo/Rule/TikTok.lsr",
+      "source_sha256": "c5c190e118db7f095474a88d1ecfe9942956945fe4e65675f179767830919901",
+      "restored_from_archive": true
+    },
+    {
+      "name": "rule_GitHub",
+      "file": "GitHub.list",
+      "rules": 31,
+      "bytes": 1316,
+      "sha256": "6a2c8e362b36544eb33cc7a99005050f63dfc89c34dae48430907629f1171d10",
+      "source": "https://rule.kelee.one/Loon/GitHub.lsr",
+      "source_sha256": "a43aa4600fd4e6c545425b9aa1d5368e701306fc4c4618e0a8ce417336f7f361",
+      "restored_from_archive": false
+    },
+    {
+      "name": "rule_Microsoft",
+      "file": "Microsoft.list",
+      "rules": 708,
+      "bytes": 22041,
+      "sha256": "98fbcf72ecf781d85297ee55bb6d27dd65c04e7f527d783926c8e99648907c20",
+      "source": "https://rule.kelee.one/Loon/Microsoft.lsr",
+      "source_sha256": "b36a0f74170213a50463633b98855db9fa26acd210f55284216092b3f18f4ed5",
+      "restored_from_archive": false
+    },
+    {
+      "name": "rule_Google",
+      "file": "Google.list",
+      "rules": 708,
+      "bytes": 20212,
+      "sha256": "1bc8932740c410aec31bcd479714484acbb8031113beef501d9212338dfa189c",
+      "source": "https://rule.kelee.one/Loon/Google.lsr",
+      "source_sha256": "72e443ac75523f7dfc5be48ede3bb999bf91be2477312d9ef96960488a7e8c97",
+      "restored_from_archive": false
+    },
+    {
+      "name": "rule_Instagram",
+      "file": "Instagram.list",
+      "rules": 4,
+      "bytes": 490,
+      "sha256": "5a017fb27170d4453ca1c70b7681215561d76db72c2e2a5c4d157babeb7fcca6",
+      "source": "https://rule.kelee.one/Loon/Instagram.lsr",
+      "source_sha256": "f6ac046cefca8c497987375cd5a59c08e6ad1ccdd665d36dcec398c5e8483a4c",
+      "restored_from_archive": false
+    },
+    {
+      "name": "rule_X",
+      "file": "X.list",
+      "rules": 33,
+      "bytes": 1297,
+      "sha256": "cdc91327ce5b04797604a049d50eeca4183376113dd123deec705c8f0a0d3abe",
+      "source": "https://rule.kelee.one/Loon/Twitter.lsr",
+      "source_sha256": "40be09bdfc4a9cbe73d11ad1c90c7332cdf27acc78cb963c2210b9f479b8cc37",
+      "restored_from_archive": false
+    },
+    {
+      "name": "rule_Telegram",
+      "file": "Telegram.list",
+      "rules": 51,
+      "bytes": 1949,
+      "sha256": "8569f391fe6b97282e5aac00fcf74bbdd915ec2c787c9c998371831498dca044",
+      "source": "https://rule.kelee.one/Loon/Telegram.lsr",
+      "source_sha256": "25d61d0f2250f0b3d6b181b939ea5c9ed824fc741cf51749eef086baf642bb42",
+      "restored_from_archive": false
+    },
+    {
+      "name": "rule_YouTube",
+      "file": "YouTube.list",
+      "rules": 186,
+      "bytes": 5476,
+      "sha256": "431050fa652b174cc4509fe6421ae6afcc4488fa95118dcb3871768c05553c87",
+      "source": "https://rule.kelee.one/Loon/YouTube.lsr",
+      "source_sha256": "93b922acec2a76fd744179256fbf00a3370e4352abdb24472750ec3c0c4d6d15",
+      "restored_from_archive": false
+    },
+    {
+      "name": "rule_Netflix",
+      "file": "Netflix.list",
+      "rules": 1156,
+      "bytes": 40494,
+      "sha256": "c3032067865a87765164b327392e3ad4cdc0898f6733aa9173bd8af2e4768c32",
+      "source": "https://rule.kelee.one/Loon/Netflix.lsr",
+      "source_sha256": "388404e567d8af125914534085d0bfdd3b43c56c8de14bc366f207de65bf86bf",
+      "restored_from_archive": false
+    },
+    {
+      "name": "rule_Global",
+      "file": "Global.list",
+      "rules": 35734,
+      "bytes": 1031123,
+      "sha256": "1a1844bbfeb003b5b751905ec3bc1d765e219454243734230fe987e6f4ccedba",
+      "source": "https://rule.kelee.one/Loon/Global.lsr",
+      "source_sha256": "d3d183ad7cd4af4ce7e58fcf0f790b844709204a931639480963a479cf5fb31e",
+      "restored_from_archive": false
+    },
+    {
+      "name": "rule_ChinaMax",
+      "file": "ChinaMax.list",
+      "rules": 123981,
+      "bytes": 3425465,
+      "sha256": "2e38be6f870595a0b252a7229359c726869fd0334103aea5f29a58f0f2b6bbbf",
+      "source": "https://rule.kelee.one/Loon/ChinaMax.lsr",
+      "source_sha256": "2c35a2a9f79941c876d211a93d7a600cc4e5d060ca1efdd2f519e18550239037",
+      "restored_from_archive": false
+    },
+    {
+      "name": "rule_LAN",
+      "file": "LAN.list",
+      "rules": 9,
+      "bytes": 593,
+      "sha256": "95c44a958bca952e3c817e3879f6264b81cf5075dfc0aff30ddbfd8b0d38a907",
+      "source": "https://kelee.one/Tool/Loon/Lsr/LAN_SPLITTER.lsr",
+      "source_sha256": "9caf5a56590ec3774680c05f958dc1e81b7d8a2545e13058824379f0aeca5e4f",
+      "restored_from_archive": false
+    },
+    {
+      "name": "rule_CN_REGION",
+      "file": "CN_REGION.list",
+      "rules": 5990,
+      "bytes": 147345,
+      "sha256": "696b0eb73fb5a49ca7dc83489a2ace2ea17ffe5d088627aad7ed1527f58e79f4",
+      "source": "https://kelee.one/Tool/Loon/Lsr/REGION_SPLITTER.lsr",
+      "source_sha256": "c6acfc55f07808e5c25a5dde6d6ee1376d9a6701ad140c252660a24b46e53d20",
+      "restored_from_archive": false
+    }
+  ]
+}

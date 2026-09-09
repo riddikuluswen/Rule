@@ -1,0 +1,114 @@
+# rule_Media-Proxy | Mihomo classical text
+# Converted: 2026-09-09
+# Source: https://raw.githubusercontent.com/axtyet/Luminous/main/sooyaabo/Rule/Media-Proxy.lsr
+# Changes: comment cleanup, stable deduplication, unsupported Loon rules omitted, GEOIP/ASN expanded where present.
+# Attribution and upstream terms: README.md and LICENSES/ in this directory.
+# Upstream: 影视播放规则(代理)
+# Upstream: 2025-11-21 15:00
+# Upstream: CMSPlayer
+# Upstream: 欧乐影视
+# Upstream: 天翼资源
+# Upstream: TMDB
+# Upstream: TVDB
+# Upstream: 其他
+# Upstream: 4K电影馆
+# Upstream: 旺旺资源
+# Upstream: XPTV
+# Upstream: VOD TV源
+# Upstream: 两个BT
+# Upstream: 嗷呜动漫
+# Upstream: 独播库
+# Upstream: 老地方影院
+# Upstream: 欧乐影院
+# Upstream: 追光影视
+# Upstream: VOD AV源
+# Upstream: 91Jav
+# Upstream: AVDB
+# Upstream: AV Today
+# Upstream: EXPORNTOONS
+# Upstream: FMovies
+# Upstream: Hanime1
+# Upstream: HoHoJ
+# Upstream: Jable
+# Upstream: JAVMove
+# Upstream: KanAV
+# Upstream: KBJFan
+# Upstream: KoreaPornMovie
+# Upstream: MissAV
+# Upstream: Pornhub
+# Upstream: PPP Porn
+# Upstream: SpankBang
+# Upstream: SubJav
+# Upstream: Taiav
+# Upstream: TwiVideo
+# Upstream: xHamster
+# Upstream: 花都影视
+# Upstream: 麻豆社
+# Upstream: 肉视频
+# Upstream: 黄色仓库
+# Upstream: 桃花族
+# Upstream: 玩偶姐姐
+# Upstream: 有爱爱
+# Upstream: PandaTV
+# Upstream: 秋名山见
+# Upstream: 网盘源
+# Upstream: 小盘盘
+DOMAIN-SUFFIX,olelive.com
+DOMAIN-SUFFIX,olevod.com
+DOMAIN-SUFFIX,olevod.tv
+DOMAIN-SUFFIX,olehdtv.com
+DOMAIN-SUFFIX,olemovienews.com
+DOMAIN-KEYWORD,olevod
+DOMAIN-SUFFIX,911ysw.top
+DOMAIN-SUFFIX,tmdb.org
+DOMAIN-SUFFIX,themoviedb.org
+DOMAIN-SUFFIX,thetvdb.com
+DOMAIN-SUFFIX,v1.mk
+DOMAIN-SUFFIX,notion-api.splitbee.io
+DOMAIN-SUFFIX,bfvvs.com
+DOMAIN-SUFFIX,cdn.venus7202.com
+DOMAIN-SUFFIX,cdn.ceres9350.com
+DOMAIN-SUFFIX,cdn.efhie.com
+DOMAIN-SUFFIX,picsum.photos
+DOMAIN-SUFFIX,ibb.co
+DOMAIN-SUFFIX,4kdyg.fun
+DOMAIN-SUFFIX,wwzy.tv
+DOMAIN-SUFFIX,bttwo.net
+DOMAIN-SUFFIX,aowu.tv
+DOMAIN-SUFFIX,duboku.info
+DOMAIN-SUFFIX,dbku.tv
+DOMAIN-SUFFIX,laodifang.tv
+DOMAIN-SUFFIX,sgsd.xyz
+DOMAIN-SUFFIX,91jav1.com
+DOMAIN,jdkir.triutpw.cc
+DOMAIN-SUFFIX,avdbapi.com
+DOMAIN-SUFFIX,avtoday.io
+DOMAIN-SUFFIX,exporntoons.net
+DOMAIN-SUFFIX,fmovies.llc
+DOMAIN-SUFFIX,hanime1.me
+DOMAIN-SUFFIX,hohoj.tv
+DOMAIN-SUFFIX,jable.tv
+DOMAIN-SUFFIX,javmove.com
+DOMAIN-SUFFIX,kanav.info
+DOMAIN-SUFFIX,kbjfan.com
+DOMAIN-SUFFIX,koreanpornmovie.com
+DOMAIN-SUFFIX,missav.ai
+DOMAIN-SUFFIX,missav.ws
+DOMAIN-SUFFIX,pornhub.com
+DOMAIN-SUFFIX,ppp.porn
+DOMAIN-SUFFIX,spankbang.com
+DOMAIN-SUFFIX,supjav.com
+DOMAIN-SUFFIX,taiav.com
+DOMAIN-SUFFIX,twivideo.net
+DOMAIN-SUFFIX,xhamster.com
+DOMAIN-SUFFIX,huaduys.org
+DOMAIN-SUFFIX,madou.club
+DOMAIN-SUFFIX,rou.video
+DOMAIN-SUFFIX,7341hsck.cc
+DOMAIN-SUFFIX,822thz.com
+DOMAIN-SUFFIX,hongkongdollvideo.com
+DOMAIN-SUFFIX,uaa.com
+DOMAIN-SUFFIX,pandalive.co.kr
+DOMAIN,api.hclyz.com
+DOMAIN,api.maiyoux.com
+DOMAIN-SUFFIX,xpanpan.site

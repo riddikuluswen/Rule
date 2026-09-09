@@ -1,0 +1,45 @@
+# rule_PCDN | Mihomo classical text
+# Converted: 2026-09-09
+# Source: https://raw.githubusercontent.com/axtyet/Luminous/main/sooyaabo/Rule/PCDN.lsr
+# Changes: comment cleanup, stable deduplication, unsupported Loon rules omitted, GEOIP/ASN expanded where present.
+# Attribution and upstream terms: README.md and LICENSES/ in this directory.
+# Upstream: 2025-03-13
+# Upstream: https://github.com/uselibrary/PCDN/blob/main/pcdn.list
+# Upstream: 通用 CDN 域名
+# Upstream: 视频平台 CDN
+# Upstream: P2P 相关域名
+# Upstream: 正则匹配规则
+# Upstream: 斗鱼规则
+DOMAIN-SUFFIX,bsccdn.net
+DOMAIN-SUFFIX,gjfzpt.cn
+DOMAIN-SUFFIX,jomodns.cn
+DOMAIN-SUFFIX,kuiniuca.com
+DOMAIN-SUFFIX,pkoplink.com
+DOMAIN-SUFFIX,saxysec.com
+DOMAIN-SUFFIX,szbdyd.com
+DOMAIN-SUFFIX,uhabo.com
+DOMAIN-SUFFIX,xycdn.com
+DOMAIN-SUFFIX,mcdn.bilivideo.cn
+DOMAIN-SUFFIX,onethingpcs.com
+DOMAIN-SUFFIX,pcdn.xmcdn.com
+DOMAIN-SUFFIX,tpa-hcdn.iqiyi.com
+DOMAIN,p2p.huya.com
+DOMAIN,p2p.qq.com
+DOMAIN,p2ptun.qq.com
+DOMAIN,p2pupdate.gamedl.qq.com
+DOMAIN,p2pupgrade.gamedl.qq.com
+DOMAIN,pcdn.yximgs.com
+DOMAIN,stun.hitv.com
+DOMAIN-SUFFIX,stun.douyucdn.cn
+DOMAIN-SUFFIX,stun1.douyucdn.cn
+DOMAIN-SUFFIX,dyp2p-ali.douyucdn.cn
+DOMAIN-SUFFIX,dyp2p-hw.douyucdn.cn
+DOMAIN-SUFFIX,p2p-ali.douyucdn.cn
+DOMAIN-SUFFIX,p2pchunk-hw.douyucdn.cn
+DOMAIN-SUFFIX,p2pchunk-table.douyucdn.cn
+DOMAIN-SUFFIX,p2pchunk-ws.douyucdn.cn
+DOMAIN-SUFFIX,p2perrorlog.douyucdn.cn
+DOMAIN-SUFFIX,p2plive-ali.douyucdn.cn
+DOMAIN-SUFFIX,p2plive-ws.douyucdn.cn
+DOMAIN-SUFFIX,p2plog.douyucdn.cn
+DOMAIN-SUFFIX,p2pvod-ws.douyucdn.cn
