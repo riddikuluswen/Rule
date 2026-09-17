@@ -42,6 +42,7 @@ DOMAIN-SUFFIX,ls.apple.com
 DOMAIN-SUFFIX,mask-h2.icloud.com
 DOMAIN-SUFFIX,mask.icloud.com
 DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN-SUFFIX,staging.apple-carry-relay.cloudflare.com
 DOMAIN-KEYWORD,siri
 
 # GitHub Copilot
