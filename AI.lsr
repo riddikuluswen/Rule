@@ -1,8 +1,9 @@
 # AI services and Apple Intelligence rules for Loon
-# Updated: 2026-08-11
+# Updated: 2026-09-17
 # Sources:
 # - https://raw.githubusercontent.com/axtyet/Luminous/refs/heads/main/sooyaabo/Rule/AI.lsr
 # - Apple-AI.list
+# - https://raw.githubusercontent.com/ddgksf2013/Filter/refs/heads/master/AppleIntelligence.list
 
 # OpenAI
 AND, ((DOMAIN-KEYWORD, chatgpt-async-webps-prod-), (DOMAIN-SUFFIX, webpubsub.azure.com))
@@ -26,6 +27,7 @@ DOMAIN,mask-api.fe.apple-dns.net
 DOMAIN,mask-api.icloud.com
 DOMAIN,mask-t.apple-dns.net
 DOMAIN,mask.apple-dns.net
+DOMAIN-SUFFIX,api-siri-prod.apple.com
 DOMAIN-SUFFIX,apple-relay.akamaized.net
 DOMAIN-SUFFIX,apple-relay.apple.com
 DOMAIN-SUFFIX,apple-relay.cloudflare.com
@@ -34,6 +36,7 @@ DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
 DOMAIN-SUFFIX,apps.mzstatic.com
 DOMAIN-SUFFIX,cp4.cloudflare.com
 DOMAIN-SUFFIX,gateway.icloud.com
+DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
 DOMAIN-SUFFIX,guzzoni.apple.com
 DOMAIN-SUFFIX,ls.apple.com
 DOMAIN-SUFFIX,mask-h2.icloud.com

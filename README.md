@@ -20,5 +20,6 @@ https://raw.githubusercontent.com/riddikuluswen/Rule/refs/heads/main/AI.lsr, pol
 
 - AI 规则历史快照：<https://raw.githubusercontent.com/axtyet/Luminous/refs/heads/main/sooyaabo/Rule/AI.lsr>
 - Apple Intelligence：[`Apple-AI.list`](./Apple-AI.list)
+- Apple Intelligence 补充：<https://raw.githubusercontent.com/ddgksf2013/Filter/refs/heads/master/AppleIntelligence.list>
 
 原 AI 订阅 `https://loon.103516.xyz/Rule/AI.lsr` 已跳转到 Telegram，本仓库使用其公开镜像快照恢复规则。
